@@ -1,4 +1,5 @@
 #Heroku Kafka Message Generator
+
 <br>
 This demo application is written in ASP.NET Core and is intended to generate a randomized, simulated "web traffic data stream" and post it to a Heroku Kafka-as-a-Service Topic. It has 2 brother apps, one which pulls the Kafka Messages off the topic and persists them to Heroku Postgres, and another which finds specific messages and flips them in Postgres for Heroku Connect to Sync to Salesforce. <br><br>
 Obviously you need Heroku Kafka in order to use this app, as well as the following Heroku App Config VARs:<br>
@@ -18,7 +19,8 @@ The other Config VARs are set when you provision Heroku Kafka and include:
 - KAFKA_ZOOKEEPER_URL
 - SECURITY_PROTOCOL_CONFIG
 <br><p>
-##
-<a href="https://heroku.com/deploy?template=https://github.com/herokumx/kafka-generator">
-  <img src="https://www.herokucdn.com/deploy/button.svg" alt="Deploy">
+
+## Deploy this App to Heroku by clicking the button below:
+
+<a href="https://heroku.com/deploy?template=https://github.com/herokumx/kafka-generator"> <img src="https://www.herokucdn.com/deploy/button.svg" alt="Deploy">
 </a>
