@@ -20,7 +20,7 @@ The other Config VARs are set when you provision Heroku Kafka and include:
 - SECURITY_PROTOCOL_CONFIG
 <br><p>
 
-## Deploy this App to Heroku by clicking the button below:
+Deploy this App to Heroku by clicking the button below:
 
 <a href="https://heroku.com/deploy?template=https://github.com/herokumx/kafka-generator"> <img src="https://www.herokucdn.com/deploy/button.svg" alt="Deploy">
 </a>
